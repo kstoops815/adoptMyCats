@@ -1,3 +1,26 @@
 body {
 	background-color: lightpink;
+};
+
+.input-group {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#catsHolder {
+	justify-content: center;
+	margin-left: 5%;
+}
+
+.cat-card {
+	width: 23%;
+}
+
+.disableButtonContainer {
+	margin: 2%;
+	text-align: center;
+
 }

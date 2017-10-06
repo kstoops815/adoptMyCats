@@ -1,16 +1,20 @@
 "use strict";
 
+const dom = require("./dom");
+
 let cats = [];
 
+
+
 const catsLoad = (catValue) => {$.ajax({
-	method: "GET",
-	url: "https://random-dogs-api.herokuapp.com/cats/${catValue}" }).done((data) => {
-	console.log(data);
+	url: `https://random-dogs-api.herokuapp.com/cats/${catValue}`}).done((data) => {
+	console.log("in cats load", data);
 	cats = data.cats;
+	dom.createDomString(cats);
 // 	$("body").css("background-image", `url(${data.url})`);
 // 	imageData = data;
-// }).fail((error) => {
-// 	console.log(error);
+	}).fail((error) => {
+		console.log(error);
 });
 };
 

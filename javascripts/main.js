@@ -4,3 +4,4 @@ console.log("in main js");
 
 require("./events");
 require("./cats");
+require("./dom");
