@@ -6,12 +6,25 @@
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
+	<div class="col-lg-4 original">
+    <div class="input-group">
+      <input type="number" id="catNumber" class="form-control" placeholder="Number of cat currently on the site">
+      <span class="input-group-btn">
+        <button class="btn btn-info" id="goCat" type="button">Get Cats!</button>
+      </span>
+    </div>
+  </div>
 
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <div class="disableButtonContainer">
+    <button class="btn btn-danger hidden" id="deleteDisabled" type="button">Get Rid of the Disabled Ones!</button>
+  </div>
+
+  <div class="row">
+  	<div id="catsHolder"></div>
+  </div>
+
+<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="./dist/app.js"></script>
 </body>
 </html>
