@@ -2,21 +2,27 @@ body {
 	background-color: lightpink;
 };
 
-.input-group {
+header {
 	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	margin: auto;
+}
+
+.original {
+	margin: auto;
+	width: 35%;
 }
 
 .hidden {
 	display: none;
 }
 
-#catsHolder {
-	justify-content: center;
-	margin-left: 5%;
-}
-
 .cat-card {
-	width: 23%;
+	margin-bottom: 6%;
 }
 
 .disableButtonContainer {

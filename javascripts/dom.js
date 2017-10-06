@@ -6,7 +6,7 @@ const createDomString = (catz) => {
 	let catString = "";
     for(let i=0; i<catz.length; i++){
         let newCat = "";
-        newCat += `<div class="cat-card col-md-3">`;
+        newCat += `<div class="cat-card col-lg-3">`;
 		newCat +=	  `<div class="image-container">`;
 		newCat +=	    `<img src="${catz[i].imageUrl}">`;
 		newCat +=	`</div>`;
