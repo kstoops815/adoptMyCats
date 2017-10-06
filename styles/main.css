@@ -1,5 +1,5 @@
 body {
-	background-color: lightpink;
+	background-color: aquamarine;
 };
 
 header {
@@ -23,10 +23,18 @@ h1 {
 
 .cat-card {
 	margin-bottom: 6%;
+	text-align: center;
+	height: 375px;
+	width: 285px;
+	margin-right: 7px;
 }
 
 .disableButtonContainer {
 	margin: 2%;
 	text-align: center;
 
+}
+
+.thumbnail {
+	background-color: hotpink;
 }

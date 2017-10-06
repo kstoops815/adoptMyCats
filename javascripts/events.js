@@ -20,6 +20,7 @@ $("#goCat").click((event) => {
 		//console.log("it works", event);
 		cats.catsLoad(catNumber);
 		$(".original").hide();
+		$("#deleteDisabled").removeClass("hidden");
 	});
 
 $("#deleteDisabled").click((event) => {
