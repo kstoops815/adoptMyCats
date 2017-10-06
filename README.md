@@ -51,3 +51,13 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
 ###### The "Get Rid of the Disabled Ones!" button removes all the cards of cats with 10 toes or less.
 
 !["adopt my cats no. 3"](./images/adoptMyCats-3.PNG)
+
+### How to Run This Project Locally:
+In order to run this project on your computer, please complete the following steps:
+  1. Clone the project by clicking on the green "Clone or Download" button above.
+  1. Run your terminal, type in git clone, then paste the information that was copied from github.
+  1. Navigate to the "lib" directory by typing in ```cd lib```.
+  1. Run npm install by typing in ```npm install```.
+  1. Navigate back one directory by typing in ```cd ../```.
+  1. Type in http-server in the terminal.
+  1. Launch your internet browser and navigate to http://localhost:8080.
