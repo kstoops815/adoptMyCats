@@ -42,12 +42,12 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
 ### Screen Shots of My Project in Use:
 ###### This is the view of the page on initial load. The input field only accepts a number. When the user types in a number, he/she can click on the "Get Cats!" button or press the Enter key, and that number of cats is printed to the page.
 
-!["adopt my cats no. 1"]("./images/adoptMyCats-1.PNG")
+!["adopt my cats no. 1"](./images/adoptMyCats-1.PNG)
 
 ###### When the Enter key is pressed or the Get Cats! button is clicked, the input field and button are hidden and replaced with another button.
 
-!["adopt my cats no. 2"]("./images/adoptMyCats-2.PNG")
+!["adopt my cats no. 2"](./images/adoptMyCats-2.PNG)
 
 ###### The "Get Rid of the Disabled Ones!" button removes all the cards of cats with 10 toes or less.
 
-!["adopt my cats no. 3"]("./images/adoptMyCats-3.PNG")
+!["adopt my cats no. 3"](./images/adoptMyCats-3.PNG)
